@@ -1,14 +1,5 @@
 <!DOCTYPE html>
 <html>
-  
-<script>
-  RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.+)$ $1.html [L,QSA]
-  RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)/$ /$1 [R=permanent,QSA]
-  </script>
 
 <!--   delete-able -->
 
