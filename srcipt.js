@@ -1,4 +1,4 @@
-<!ELEMENT script (#PCDATA)>
+
 function checkCookie() {
   let cookie = document.cookie;
   if (cookie == "") {
