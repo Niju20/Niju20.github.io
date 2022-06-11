@@ -39,6 +39,15 @@ console.log("ごきげんよう");
 </style>
 </head>
 
+<script>
+function checkCookie() {
+  let cookie = document.cookie;
+  if (cookie == "") {
+    alert("ようこそw");
+  document.cookie = "we=ehe; path=/; secure"
+  }
+}
+</script>
 
     <body onload="checkCookie()">
 <!--   <script>document.cookie = "we=ehe; path=/; Secure"</script>
@@ -96,9 +105,8 @@ console.log("ごきげんよう");
     iframe width=full height=full src="https://youtu.be/embed/TQ8WlA2GXbk" style="border:0;" allowfullscreen=""></iframe> -->
 
   <!--     <iframe width=full height=full src="https://youtu.be/embed/TQ8WlA2GXbk">style="border:0;" allowfullscreen=""</iframe> -->
-<!-- 
-  <script src="script.js"></script> -->
-    <script src="script.js"></script>
+
+  <script src="script.js"></script>
   
 </body>
 
