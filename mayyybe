@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<!--   delete-able -->
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mayyybe? w</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+  <link rel="icon" href="../source/q73urc3uqp8uncnoqh3zgqdqgradqqjucyhg675ujh5ughja8r3zgwmigpyr6qjhgy4dqqj4qj8u6h4tgh3o.png">
+  
+
+  <style>
+  body {
+    background-image: url('../source/wa.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+
+  iframe {
+    height: auto;
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    boarder: none;
+    }
+
+  iframe {
+    height: auto;
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .button {
+    background-color: #010944;
+    border: none;
+    color: white;
+    padding: 8px 16px; 
+/*     % */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: auto;
+    left:80%;
+    position: relative;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight:bold;
+    }
+
+    .button2 {
+  background-color: transparent; 
+  color: transparent; 
+  border: 2px solid transparent;
+      
+  }
+/*ughhhhhh*/
+    
+</style>
+
+<body>
+  <br>
+  <br>
+  <iframe width=80% height=80% src="https://www.youtube.com/embed/GWkLAGlEcxg?start=2" style="border:0;" allowfullscreen=0></iframe>
+  <br>
+  <br>
+   <iframe width=80% height=80% src="https://www.youtube.com/embed/AmvzZnJ4lIY" style="border:0;" allowfullscreen=0></iframe>
+  <br>
+  <br>
+  <iframe width=80% height=80% src="https://www.youtube.com/embed/X3y8XKm3jn4" style="border:0;" allowfullscreen=0></iframe>
+  <br>
+  <br>
+  <iframe width=80% height=80% src="https://www.youtube.com/embed/WUxTvhwj1es" style="border:0;" allowfullscreen=0></iframe>
+  <br>
+  <br>
+  <iframe width=80% height=80% src="https://www.youtube.com/embed/cHYeFFGcjdc" style="border:0;" allowfullscreen=0></iframe>
+  <br>
+  <br>
+  <iframe width=80% height=80% src="https://www.youtube.com/embed/tBTKScxGes8" style="border:0;" allowfullscreen=0></iframe>
+  <br>
+  <br>
+  <iframe width=80% height=80% src="https://www.youtube.com/embed/K59Dwn2wMEg" style="border:0;" allowfullscreen=0></iframe>
+  <br>
+  <br>
+  <br>
+  
+  <script>
+
+    let matchMedia = window.matchMedia("(max-width:600px)");
+    if(!matchMedia.matches){ //exclude mobile hm
+      
+//ban right click
+    window.oncontextmenu = function () { return false; }
+ //ban f12 shiftCTRi 
+    window.onkeydown = window.onkeyup = window.onkeypress = function () {
+      window.event.returnValue = false;
+ return false;
+    }
+ //width+height of visible window-> more tools baibai
+ var h = window.innerHeight, w = window.innerWidth;
+    window.onresize = function () {
+ if (h != window.innerHeight || w != window.innerWidth) {
+        window.close();
+        window.location = "about:blank";
+      }
+    }
+
+  </script>
+
+  <script>
+console.log("よく頑張った");
+</script>
+
+  <script>
+function we() {
+  alert("お疲れw");
+}
+</script>
+
+  <button class="button button2" onclick="we()"></button>
+
+<!--   <a class="btn" href="../" >more</a> -->
+  
