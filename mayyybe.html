@@ -99,6 +99,9 @@
   <br>
   
   <script>
+let matchMedia = window.matchMedia("(max-width:600px)");
+    if(!matchMedia.matches){ //exclude mobile hm
+      
 //ban right click
     window.oncontextmenu = function () { return false; }
  //ban f12 shiftCTRi 
@@ -113,6 +116,7 @@
         window.close();
         window.location = "about:blank";
       }
+    }
     }
 
   </script>
