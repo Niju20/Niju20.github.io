@@ -130,9 +130,20 @@ function we() {
   alert("お疲れw");
 }
 </script>
+  
+  <template>
+  <img src="we.png" width="265" height="265">
+</template>
 
-  <button class="button button2" onclick="we()"></button>
-    
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
+
+  <button class="button button2" onclick="we() showContent()"></button>
 
 <!--   <a class="btn" href="../" >more</a> -->
   
