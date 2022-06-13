@@ -126,15 +126,15 @@ console.log("よく頑張った");
   </script>
   
   <script>
-    const btn = document.getElementById('btn');
+  const btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
-  // 👇️ hide button
-  btn.style.display = 'none';
+  // 👇️ hide button (still takes up space on page)
+  btn.style.visibility = 'hidden';
 
   // 👇️ show div
   const box = document.getElementById('box');
-  box.style.display = 'block';
+  box.style.visibility = 'visible';
 });
   </script>
 
