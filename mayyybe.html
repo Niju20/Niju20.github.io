@@ -128,22 +128,19 @@ console.log("よく頑張った");
   <script>
 function we() {
   alert("お疲れw");
+
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
 }
+
 </script>
   
   <template>
   <img src="we.png" width="265" height="265">
 </template>
 
-<script>
-function showContent() {
-  var temp = document.getElementsByTagName("template")[0];
-  var clon = temp.content.cloneNode(true);
-  document.body.appendChild(clon);
-}
-</script>
-
-  <button class="button button2" onclick="we()""showContent()"></button>
+  <button class="button button2" onclick="we()"></button>
 
 <!--   <a class="btn" href="../" >more</a> -->
   
