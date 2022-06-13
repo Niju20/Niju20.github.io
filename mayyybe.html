@@ -126,16 +126,20 @@ console.log("よく頑張った");
   </script>
   
   <script>
-  const btn = document.getElementById('btn');
+//   const btn = document.getElementById('btn');
 
-btn.addEventListener('click', () => {
-  // 👇️ hide button (still takes up space on page)
-  btn.style.visibility = 'hidden';
+// btn.addEventListener('click', () => {
+//   // 👇️ hide button (still takes up space on page)
+//   btn.style.visibility = 'hidden';
 
-  // 👇️ show div
-  const box = document.getElementById('box');
-  box.style.visibility = 'visible';
-});
+//   // 👇️ show div
+//   const box = document.getElementById('box');
+//   box.style.visibility = 'visible';
+// });
+    
+    document.querySelector("#bottompage").addEventListener("click", () => {
+ window.scrollTo(0, document.body.scrollHeight);
+})
   </script>
 
   <script>
@@ -146,9 +150,9 @@ function we() {
   var clon = temp.content.cloneNode(true);
   document.body.appendChild(clon);
 }
-    document.querySelector("#bottompage").addEventListener("click", () => {
- window.scrollTo(0, document.body.scrollHeight);
-})
+//     document.querySelector("#bottompage").addEventListener("click", () => {
+//  window.scrollTo(0, document.body.scrollHeight);
+// })
 
 </script>
   
@@ -160,7 +164,7 @@ function we() {
     <br>
 </template>
 
-  <button class="button button2"id="btn"" onclick="we()"></button>
+  <button class="button button2"id="bottompage"" onclick="we()"></button>
 
 <!--   <a class="btn" href="../" >more</a> -->
   
