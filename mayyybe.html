@@ -109,15 +109,31 @@ function openFullscreen() {
 document.addEventListener('load', documentLoadHandler);
   </script> -->
 
+//    function myFunction(){
+//   // your code here
+// /* Get the documentElement (<html>) to display the page in fullscreen */
+// var elem = document.documentElement;
+
+// /* View in fullscreen */
+// function openFullscreen() {
+//   if (elem.requestFullscreen) {
+//     elem.requestFullscreen();
+//   } else if (elem.webkitRequestFullscreen) { /* Safari */
+//     elem.webkitRequestFullscreen();
+//   } else if (elem.msRequestFullscreen) { /* IE11 */
+//     elem.msRequestFullscreen();
+//   }
+// }
+//       }
   
-  <script>
-   function myFunction(){
+    <script>
+function myFunction(){
   // your code here
 /* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
 
 /* View in fullscreen */
-function openFullscreen() {
+
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
   } else if (elem.webkitRequestFullscreen) { /* Safari */
@@ -126,7 +142,6 @@ function openFullscreen() {
     elem.msRequestFullscreen();
   }
 }
-      }
 </script>
   
     
