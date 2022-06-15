@@ -110,6 +110,27 @@ document.addEventListener('load', documentLoadHandler);
   </script> -->
 
 <body>
+  
+  <script>
+      window.onload = function(){
+  // your code here
+/* Get the documentElement (<html>) to display the page in fullscreen */
+var elem = document.documentElement;
+
+/* View in fullscreen */
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+      }
+</script>
+  
+  
   <br>
   <br>
   <iframe width=80% height=80% src="https://www.youtube.com/embed/GWkLAGlEcxg?start=2" style="border:0;" allowfullscreen=0></iframe>
