@@ -208,23 +208,6 @@ let matchMedia = window.matchMedia("(max-width:600px)");
 console.log("よく頑張った");
   </script>
   
-  <script>
-  const btn = document.getElementById('btn');
-
-btn.addEventListener('click', () => {
-  // 👇️ hide button (still takes up space on page)
-  btn.style.visibility = 'hidden';
-  
-  document.getElementById("Button").disabled = true;
-  
-  //?
-
-//   // 👇️ show div
-//   const box = document.getElementById('box');
-//   box.style.visibility = 'visible';
-});
-   
-  </script>
 
   <script>
 function we() {
@@ -249,6 +232,24 @@ function we() {
 </template>
 
   <button class="button button2" id="btn" onclick="we()"></button>
+  
+  <script>
+  const btn = document.getElementById('btn');
+
+btn.addEventListener('click', () => {
+  // 👇️ hide button (still takes up space on page)
+  btn.style.visibility = 'hidden';
+  
+  document.getElementById("Button").disabled = true;
+  
+  //?
+
+//   // 👇️ show div
+//   const box = document.getElementById('box');
+//   box.style.visibility = 'visible';
+});
+   
+  </script>
 
 <!--   <a class="btn" href="../" >more</a> -->
   
