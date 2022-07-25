@@ -216,6 +216,7 @@ function we() {
   var temp = document.getElementsByTagName("template")[0];
   var clon = temp.content.cloneNode(true);
   document.body.appendChild(clon);
+  document.getElementById("btn").style.display = "none";
 }
 //     document.querySelector("#bottompage").addEventListener("click", () => {
 //  window.scrollTo(0, document.body.scrollHeight);
@@ -233,7 +234,7 @@ function we() {
 
   <button class="button button2" id="btn" onclick="we()"></button>
   
-  <script>
+<!--   <script>
   const btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
@@ -249,7 +250,7 @@ btn.addEventListener('click', () => {
 //   box.style.visibility = 'visible';
 });
    
-  </script>
+  </script> -->
 
 <!--   <a class="btn" href="../" >more</a> -->
   
