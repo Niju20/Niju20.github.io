@@ -40,21 +40,21 @@
   <br>
   <br>
     <div class='audio-container'>
-   <audio controls source controlsList="nodownload" src="/AudioCutter_seishun-buta-yarou-wa-bunnygirl-senpai-no-yume-wo-minai-ost-rascal-d.mp3" type="audio/mpeg"/>
+   <audio controls loop controls source controlsList="nodownload" src="/AudioCutter_seishun-buta-yarou-wa-bunnygirl-senpai-no-yume-wo-minai-ost-rascal-d.mp3" type="audio/mpeg"/>
      殘念w
    </audio>
     </div>
       <br>
       <br>
     <div class='audio-container'>
-   <audio controls source controlsList="nodownload" src="/qing-butachu-lian-noren-bgm.mp3" type="audio/mpeg"/>
+   <audio controls loop controls source controlsList="nodownload" src="/qing-butachu-lian-noren-bgm.mp3" type="audio/mpeg"/>
      殘念w
    </audio>
     </div>
       <br>
       <br>
   <div class='audio-container'>
-      <audio controls source controlsList="nodownload " src="/22-maiden-chikku-yi-nu-chitsuku.mp3" type="audio/mpeg"/>
+      <audio controls loop controls source controlsList="nodownload" src="/22-maiden-chikku-yi-nu-chitsuku.mp3" type="audio/mpeg"/>
      殘念w
    </audio>
 </div>
@@ -73,3 +73,34 @@
 <br>
   
 </body>
+
+
+ <script>
+let matchMedia = window.matchMedia("(max-width:600px)");
+    if(!matchMedia.matches){ //exclude mobile hm
+      
+//ban right click
+    window.oncontextmenu = function () { return false; }
+ //ban f12 shiftCTRi 
+    window.onkeydown = window.onkeyup = window.onkeypress = function () {
+      window.event.returnValue = false;
+ return false;
+    }
+ //width+height of visible window-> more tools baibai
+ var h = window.innerHeight, w = window.innerWidth;
+    window.onresize = function () {
+ if (h != window.innerHeight || w != window.innerWidth) {
+        window.close();
+        window.location = "about:blank";
+      }
+    }
+    }
+
+  </script>
+
+var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+  document.getElementById("btn").style.display = "none";
+
+
