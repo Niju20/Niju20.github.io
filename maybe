@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mayyyyyybe</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+<link rel="icon" href="q73urc3uqp8uncnoqh3zgqdqgradqqjucyhg675ujh5ughja8r3zgwmigpyr6qjhgy4dqqj4qj8u6h4tgh3o.png">
+  
+
+  <style>
+  body {
+    background-image: url('wa.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+
+  iframe {
+    height: auto;
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    boarder: none;
+    }
+
+  iframe {
+    height: auto;
+    width: 80%;
+    aspect-ratio: 16 / 9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .button {
+    background-color: #010944;
+    border: none;
+    color: white;
+    padding: 8px 16px; 
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: auto;
+    left:80%;
+    position: relative;
+    font-family: 'Amatic SC', sans-serif;
+    font-weight:bold;
+    }
+
+    .button2 {
+  background-color: transparent; 
+  color: transparent; 
+  border: 2px solid transparent;
+      
+  }
+    
+button {
+  padding: 20px;
+  font-size: 20px;
+}
+
+:-webkit-full-screen {
+  background-color: transparent;
+}
+
+:-ms-fullscreen {
+  background-color: transparent;
+}
+
+:fullscreen {
+  background-color: transparent;
+}
+    
+</style>
+  
+    <script>
+function myFunction(){
+
+var elem = document.documentElement;
+
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { 
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { 
+    elem.msRequestFullscreen();
+  }
+}
+</script>
+  
+  <script>
+    myFunction()
+  </script>
+  
+<body>
+  <br>
+  <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?autoplay=1&mute=1&list=PLr_2MCwzSNGwG96j3_gtEcC1Aj-HTITpq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <script>
+function wa() {
+  var myWindow = window.open(href="https://www.youtube.com/embed/videoseries?list=PLr_2MCwzSNGylK8IxmdPXmEsdnzOQmp2k", "width=500,height=300");
+}
+</script>
+  <button class="button button2" onclick="wa()"></button>
+  <br>
+  <br>
+  
+   <iframe width=80% height=80% src="https://www.youtube.com/embed/videoseries?list=PLr_2MCwzSNGx1BGhbt1WelEkzuJUAhTpS" style="border:0;" allowfullscreen=0></iframe>
+  <br>
+  <br>
+  
+  <iframe width=80% height=80% src="https://https://www.youtube.com/embed/videoseries?list=PLr_2MCwzSNGxLYtPhHhzVSdKpP_FXF7OI" style="border:0;" allowfullscreen=0></iframe>
+
+  <br>
+  <br>
+  <br>
+  
+  <script>
+let matchMedia = window.matchMedia("(max-width:600px)");
+    if(!matchMedia.matches){ 
+    
+    window.oncontextmenu = function () { return false; }
+
+    window.onkeydown = window.onkeyup = window.onkeypress = function () {
+      window.event.returnValue = false;
+ return false;
+    }
+
+ var h = window.innerHeight, w = window.innerWidth;
+    window.onresize = function () {
+ if (h != window.innerHeight || w != window.innerWidth) {
+        window.close();
+        window.location = "about:blank";
+      }
+    }
+    }
+
+  </script>
