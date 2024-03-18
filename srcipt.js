@@ -10,10 +10,10 @@ function checkCookie() {
 // 會跑去view page source的stalker君安安w
 
 function checkCookie_() {
-  let cookie = document.cookie;
-  if (cookie == "") {
+  let cookie_ = document.cookie_;
+  if (cookie_ == "") {
     alert(""お帰り？w");
-  document.cookie = "we=ehe; path=/; secure"
+  document.cookie_ = "we=ehe; path=/; secure"
   }
 }
 
