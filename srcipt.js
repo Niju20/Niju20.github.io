@@ -9,6 +9,13 @@ function checkCookie() {
 // 噗哈哈哈好w 因為 因為實在沒人用fb了苦無安利歌單途徑所以 嗯 這算 某種自介嗎hhhh
 // 會跑去view page source的stalker君安安w
 
+function checkCookie_() {
+  let cookie = document.cookie;
+  if (cookie == "") {
+    alert("ようこそw");
+  document.cookie = "we=ehe; path=/; secure"
+  }
+}
 
 
 
