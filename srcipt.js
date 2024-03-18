@@ -12,7 +12,7 @@ function checkCookie() {
 function checkCookie_() {
   let cookie = document.cookie;
   if (cookie == "") {
-    alert("ようこそw");
+    alert(""お帰り？w");
   document.cookie = "we=ehe; path=/; secure"
   }
 }
