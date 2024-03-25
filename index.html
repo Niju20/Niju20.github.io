@@ -40,9 +40,9 @@ console.log("ごきげんよう");
 <script>
 function checkCookie() {
   let cookie = document.cookie;
-  if (cookie == "") {
+  if (cookie != "oishii") {
     alert("ようこそw");
-  document.cookie = "oishii; we=ehe; path=/; secure"
+  document.cookie = "name=oishii; SameSite=None; Secure";
   }
 }
 </script>
@@ -55,7 +55,6 @@ function checkCookie() {
 
 	<script>
     <body onload="checkCookie()">
-	    document.cookie = "oishii; we=ehe; path=/; secure"
   </script>
 	
 <!--   <script>alert("get out");
