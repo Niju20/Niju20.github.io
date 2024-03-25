@@ -13,7 +13,7 @@ function checkCookie_() {
   let cookie_ = document.cookie_;
   if (cookie_ == "") {
     alert(""お帰り？w");
-  document.cookie_ = "we=ehe; path=/; secure"
+  // document.cookie_ = "we=ehe; path=/; secure"
   }
 }
 
